@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<form  >
+  <div class="imgcontainer">
+    <h1>WELCOME TO LOGIN PAGE</h1>
+  </div>
+
+  <div class="container">
+    <label style="color:white"><b>User Name</b></label><br>
+    <input type="text" name="userName" [(ngModel)]="username" required><br>
+
+    <label style="color:white"><b>Password</b></label><br>
+    <input type="password" name="passWord" [(ngModel)]="password" required><br>
+        
+    <button type="submit"value="Login" (click)="doLogin()">LOGIN</button><br>
+    
+    <small *ngIf='inValidLogin'>Invalid Login</small>
+  </div>
+
+</form>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>

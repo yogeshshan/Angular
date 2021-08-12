@@ -1,0 +1,18 @@
+<table border="1">
+    <caption>My Todo's</caption>
+    <thead>
+      <tr>
+          <th>description</th>
+          <th>isCompleted</th>
+          <th>TargetDate</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = 'let toDo of toDos'>
+           <td>{{toDo.description}}</td>
+           <td>{{toDo.done}}</td>
+           <td>{{toDo.targetDate | date | upperCase}}</td>
+        </tr>
+
+    </tbody>
+</table>

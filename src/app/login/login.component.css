@@ -1,0 +1,82 @@
+
+body {font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+   background-image: linear-gradient(
+    rgba(75, 12, 12, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    color:WHITE;
+    border-style:   double;
+    border-radius: 24px;
+    padding :20px;
+  
+  }
+  form {border: none solid red;}
+  
+  input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50px;
+    background-color: blue;
+    
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 50px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  .cancelbtn:hover{
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+   
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    align-items: center;
+    background-color: #f44336;
+    border-radius: 50px;
+  
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    padding : 0 0 75px 0;
+    font-weight: 1000;
+  }
+  
+  img.avatar {
+    width: 30%;
+  }
+  
+  .container {
+    padding: 16px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  }
